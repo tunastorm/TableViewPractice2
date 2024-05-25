@@ -14,8 +14,6 @@
 		BCC523172C007CCA00DF080D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC523162C007CCA00DF080D /* Assets.xcassets */; };
 		BCC5231A2C007CCA00DF080D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCC523192C007CCA00DF080D /* Base */; };
 		BCC523222C007EB800DF080D /* ShoppingBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC523212C007EB800DF080D /* ShoppingBoard.storyboard */; };
-		BCC523242C007EC300DF080D /* TravelBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC523232C007EC300DF080D /* TravelBoard.storyboard */; };
-		BCC523262C007ED200DF080D /* RestaurantBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC523252C007ED200DF080D /* RestaurantBoard.storyboard */; };
 		BCC523292C007F5100DF080D /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC523282C007F5100DF080D /* ShoppingTableViewController.swift */; };
 		BCC5232B2C00822500DF080D /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC5232A2C00822500DF080D /* ShoppingTableViewCell.swift */; };
 		BCC523392C00A25F00DF080D /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC523382C00A25F00DF080D /* SearchTableViewCell.swift */; };
@@ -34,8 +32,6 @@
 		BCC523192C007CCA00DF080D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCC5231B2C007CCA00DF080D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC523212C007EB800DF080D /* ShoppingBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShoppingBoard.storyboard; sourceTree = "<group>"; };
-		BCC523232C007EC300DF080D /* TravelBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TravelBoard.storyboard; sourceTree = "<group>"; };
-		BCC523252C007ED200DF080D /* RestaurantBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantBoard.storyboard; sourceTree = "<group>"; };
 		BCC523282C007F5100DF080D /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 		BCC5232A2C00822500DF080D /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		BCC523382C00A25F00DF080D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -84,8 +80,6 @@
 				BCC523182C007CCA00DF080D /* LaunchScreen.storyboard */,
 				BCC5231B2C007CCA00DF080D /* Info.plist */,
 				BCC523212C007EB800DF080D /* ShoppingBoard.storyboard */,
-				BCC523232C007EC300DF080D /* TravelBoard.storyboard */,
-				BCC523252C007ED200DF080D /* RestaurantBoard.storyboard */,
 			);
 			path = TableViewPractice2;
 			sourceTree = "<group>";
@@ -168,8 +162,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC523262C007ED200DF080D /* RestaurantBoard.storyboard in Resources */,
-				BCC523242C007EC300DF080D /* TravelBoard.storyboard in Resources */,
 				BCC523172C007CCA00DF080D /* Assets.xcassets in Resources */,
 				BCC5231A2C007CCA00DF080D /* Base in Resources */,
 				BCC523152C007CC900DF080D /* Base in Resources */,

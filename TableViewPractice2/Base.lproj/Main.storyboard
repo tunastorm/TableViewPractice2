@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyl-Fh-ISB">
-                                <rect key="frame" x="143" y="266" width="107" height="35"/>
+                                <rect key="frame" x="143" y="409" width="107" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -26,28 +26,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Shopping"/>
                                 <connections>
                                     <segue destination="4bD-eq-bQV" kind="show" id="Ccc-8X-ElC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8U0-LB-PdX">
-                                <rect key="frame" x="144" y="409" width="107" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Travel"/>
-                                <connections>
-                                    <segue destination="wzY-qT-B7f" kind="presentation" id="MLP-ax-VZr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D12-jf-zIj">
-                                <rect key="frame" x="143" y="549" width="107" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Restaurant"/>
-                                <connections>
-                                    <segue destination="dwj-bb-WeD" kind="show" id="ewA-hE-Kgv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,20 +48,9 @@
             </objects>
             <point key="canvasLocation" x="678" y="-175"/>
         </scene>
-        <!--TravelBoard-->
-        <scene sceneID="WLk-eT-Dhj">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TravelBoard" id="wzY-qT-B7f" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="XqZ-68-ewq"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XMg-nY-fyx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="662" y="-35"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="6gc-Lp-6zd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zYh-BN-Dm9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="QLJ-8U-RZT" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Om-Iq-Qko">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -93,18 +60,9 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pd8-Nc-hZT"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zYh-BN-Dm9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-782" y="-35"/>
-        </scene>
-        <!--RestaurantBoard-->
-        <scene sceneID="Oy8-md-gvN">
-            <objects>
-                <viewControllerPlaceholder storyboardName="RestaurantBoard" id="dwj-bb-WeD" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="eeL-Ed-ZLs"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c0o-9t-dt3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="685" y="83"/>
         </scene>
     </scenes>
     <resources>
